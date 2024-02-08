@@ -1,12 +1,8 @@
-<h1 align="left">Prueba Tecnica Municipalidad De Merlo</h1>
+<h1 align="left">Prueba Técnica Municipalidad De Merlo</h1>
 
-###
-  ![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)
-###
+![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)
 
-<h2 align="left">Tecnologias utilizadas:</h2>
-
-###
+<h2 align="left">Tecnologías utilizadas:</h2>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
@@ -22,51 +18,40 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
 </div>
 
-###
 <h1 align="left">Vistas</h1>
 
-<h3 align="left">Register</h3>
+<h3 align="left">Registro</h3>
 <p align="left">
-  Una vista en donde el administrador puede crear los perfiles de los empleados, si tambien lo desea puede crear a otros administradores.
+  Una vista donde el administrador puede crear perfiles para los empleados, y si lo desea, también puede crear otros administradores.
 </p>
 
- ![Banner](RegistroViewMuni.png)
- 
+![RegistroViewMuni](RegistroViewMuni.png)
 
 <h3 align="left">Invitados</h3>
 <p align="left">
-  Una vista en donde los usuarios acceden a su cuenta, ya sean administradores o empleados.
+  Una vista donde los usuarios acceden a su cuenta, ya sean administradores o empleados.
 </p>
 
- ![Banner](InvitadoViewMuni.png)
+![InvitadoViewMuni](InvitadoViewMuni.png)
 
 <h3 align="left">Crear Tareas</h3>
 <p align="left">
-  Una vista en donde el administrador de la sala puede crear las tareas y asignarlas a los empleados que tenga en su sala.
+  Una vista donde el administrador de la sala puede crear tareas y asignarlas a los empleados de su sala.
 </p>
 
- ![Banner](CrearTareaViewMuni.png)
+![CrearTareaViewMuni](CrearTareaViewMuni.png)
 
 <h3 align="left">Lista De Tareas</h3>
 <p align="left">
-  Una vista en donde el los empleados pueden visualisar todas las tareas quese les asignaron, si el administrador accede se mostraran todas las tareas creadas.
+  Una vista donde los empleados pueden visualizar todas las tareas que se les asignaron. Si el administrador accede, se mostrarán todas las tareas creadas.
 </p>
 
- ![Banner](ListaTareasViewMuni.png)
+![ListaTareasViewMuni](ListaTareasViewMuni.png)
 
 <h3 align="left">Buscador De Usuarios</h3>
 <p align="left">
-  Una vista en donde el administrador de la sala ve a todos los usuarios que accedieron al sistema, ya sea un administrador o un empleado, pudiendo buscarlos por su nombre. 
+  Una vista donde el administrador de la sala puede ver a todos los usuarios que han accedido al sistema, ya sean administradores o empleados, y puede buscarlos por su nombre.
 </p>
 
- ![Banner](SearchViewMuni.png)
+![SearchViewMuni](SearchViewMuni.png)
 
-<h2 align="left">Contador De Visitantes</h2>
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/Maxidev/count.svg?"  />
-</div>
-
-###
