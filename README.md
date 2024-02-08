@@ -23,6 +23,32 @@
 </div>
 
 ###
+<h2 align="left">Vistas</h2>
+
+<h3 align="left">Register</h3>
+<p align="left">
+  Una vista en donde el administrador puede crear los perfiles de los empleados, si tambien lo desea puede crear a otros administradores.
+</p>
+
+<h3 align="left">Invitados</h3>
+<p align="left">
+  Una vista en donde los usuarios acceden a su cuenta, ya sean administradores o empleados.
+</p>
+
+<h3 align="left">Crear Tareas</h3>
+<p align="left">
+  Una vista en donde el administrador de la sala puede crear las tareas y asignarlas a los empleados que tenga en su sala.
+</p>
+
+<h3 align="left">Lista De Tareas</h3>
+<p align="left">
+  Una vista en donde el los empleados pueden visualisar todas las tareas quese les asignaron, si el administrador accede se mostraran todas las tareas creadas.
+</p>
+
+<h3 align="left">Buscador De Usuarios</h3>
+<p align="left">
+  Una vista en donde el administrador de la sala ve a todos los usuarios que accedieron al sistema, ya sea un administrador o un empleado, pudiendo buscarlos por su nombre. 
+</p>
 
 <h2 align="left">Contador De Visitantes</h2>
 
