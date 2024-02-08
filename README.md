@@ -27,8 +27,11 @@
 ###
 <h3 align="left">Register</h3>
 ###
+
  ![Banner](RegistroViewMuni.png)
-###
+
+ ###
+ 
 <p align="left">
   Una vista en donde el administrador puede crear los perfiles de los empleados, si tambien lo desea puede crear a otros administradores.
 </p>
