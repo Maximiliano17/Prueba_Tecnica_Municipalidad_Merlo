@@ -25,7 +25,7 @@
 ###
 <h1 align="left">Vistas</h1>
 
-<h2 align="left">Register</h2>
+<h3 align="left">Register</h3>
 <p align="left">
   Una vista en donde el administrador puede crear los perfiles de los empleados, si tambien lo desea puede crear a otros administradores.
 </p>
