@@ -1,7 +1,7 @@
 <h1 align="left">Prueba Tecnica Municipalidad Merlo</h1>
 
 ###
-  ![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)s
+  ![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)
 ###
 
 <h2 align="left">Tecnologias utilisadas:</h2>
