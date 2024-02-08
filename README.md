@@ -38,20 +38,28 @@
   Una vista en donde los usuarios acceden a su cuenta, ya sean administradores o empleados.
 </p>
 
+ ![Banner](InvitadoViewMuni.png)
+
 <h3 align="left">Crear Tareas</h3>
 <p align="left">
   Una vista en donde el administrador de la sala puede crear las tareas y asignarlas a los empleados que tenga en su sala.
 </p>
+
+ ![Banner](CrearTareaViewMuni.png)
 
 <h3 align="left">Lista De Tareas</h3>
 <p align="left">
   Una vista en donde el los empleados pueden visualisar todas las tareas quese les asignaron, si el administrador accede se mostraran todas las tareas creadas.
 </p>
 
+ ![Banner](ListaTareasViewMuni.png)
+
 <h3 align="left">Buscador De Usuarios</h3>
 <p align="left">
   Una vista en donde el administrador de la sala ve a todos los usuarios que accedieron al sistema, ya sea un administrador o un empleado, pudiendo buscarlos por su nombre. 
 </p>
+
+ ![Banner](SearchViewMuni.png)
 
 <h2 align="left">Contador De Visitantes</h2>
 
