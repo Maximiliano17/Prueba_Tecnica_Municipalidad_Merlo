@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/blob/master/bannerMunicipalidad.jpg)
+  ![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)
 </div>
 
 ###
