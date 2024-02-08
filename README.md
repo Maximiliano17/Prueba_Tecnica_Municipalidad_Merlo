@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="[https://i.imgflip.com/65efzo.gif](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/issues/1)"  />
+  https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/issues/1
 </div>
 
 ###
