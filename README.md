@@ -2,6 +2,13 @@
 
 ![Banner](https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo/raw/master/bannerMunicipalidad.jpg)
 
+<h2 aling="left">¿Qué es?</h2>
+<p aling="left">
+  Este código es la resolución de una prueba técnica impuesta por la Municipalidad de Merlo. En esta prueba, se debía crear un sistema según mi criterio, incorporando las tecnologías que 
+  utilizan diariamente. El sistema creado es un área de trabajo que permite a los administradores (jefes) asignar tareas a sus empleados. Los empleados pueden completar las tareas 
+  asignadas y notificar a sus jefes una vez completadas.
+</p>
+
 <h2 align="left">Tecnologías utilizadas:</h2>
 
 <div align="left">
