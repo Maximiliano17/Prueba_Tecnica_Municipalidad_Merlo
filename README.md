@@ -61,3 +61,19 @@
 </p>
 
 ![SearchViewMuni](SearchViewMuni.png)
+
+<h2 aling="left">Descarga La Base de Datos 😀</h2>
+<p aling="left">
+ Puedes descargar la base de datos para utilizar el proyecto en caso de no funcionarte el docker 
+</p>
+
+### Estructura
+
+La base de datos tiene las siguientes tablas:
+
+- `Usuarios`: Una tabla con todos los usuarios existentes y sus roles.
+- `Tareas`: Aqui se guardan las tareas de los usuarios.
+
+### Instrucciones
+
+1. Descarga la base de datos desde [https://drive.google.com/file/d/15dAdiYLIyVtHFa2oVN3_kdAjaZd_Qqpi/view?usp=sharing](enlace).
