@@ -1,6 +1,6 @@
 <?php
  session_start();
-
+ 
  // Incluir el archivo de conexión a la base de datos
   include "../ConexionDataBase/ConexionDataBase.php";
 
@@ -18,14 +18,14 @@
 
  if ($_SESSION["usuario"]["rol"] == "Admin") {
     //Mostrar todas las tareas
-    $query = "SELECT * FROM tareas";
+    $query = "SELECT * FROM tareas WHERE completado = false";
     $resultado = mysqli_query($conexion, $query);
  } else {
  // Consulta SQL para seleccionar las tareas del usuario actual
-  $query = "SELECT * FROM tareas WHERE empleado = '$dni_usuario'";
+  $query = "SELECT * FROM tareas WHERE empleado = '$dni_usuario' AND completado = false";
   $resultado = mysqli_query($conexion, $query);
  }
- 
+  
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +52,8 @@
           <nav class="navBar">
               <a href="../views/index.php">Crear Tarea</a> 
               <a href="../views/TareasList.php">Tareas Lista</a>
-              <a href="../views/RevisarTareas.php">Revisar Tareas</a> 
+              <a href="../views/TareasConcluidas.php">Tareas Concluidas</a>
+              <a href="../views/SearchUsuarios.php">Buscar Usuarios</a> 
               <a href="../views/Registro/Registro.php">Crear usuario</a> 
           </nav> 
         </header> 
@@ -71,23 +72,18 @@
               if ($_SESSION['usuario']['rol'] == 'Admin') {
                   // Mostrar botón solo para administradores
                   echo "<div class='containerBtn'>
-                          <button> 
-                            Finalizar Tarea 
-                          </button>
-                        </div>";
+                            <a class='Btn' href='../php/confirmarDelete.php?id={$fila['id']}'>Eliminar Tarea</a>
+                            <a class='Btn' href='../views/EditarTarea.php?id={$fila['id']}'>Editar Tarea</a>
+                          </div>";
               } else {
                   // Mostrar otro botón para otros usuarios
                   echo "<div class='containerBtn'>
-                          <button> 
-                           Tarea Completada 
-                          </button>
-                        </div>";
+                          <a class='Btn' href='../php/confirmarTareaCompleta.php?id={$fila['id']}'>Tarea Completada</a>
+                        </div>"; 
               }
           
               echo "</div>";
           }
-
-
 
           ?>
          </div>

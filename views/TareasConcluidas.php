@@ -1,5 +1,6 @@
 <?php 
  session_start();
+ include "../ConexionDataBase/ConexionDataBase.php";
 
  // Verificar si el usuario está autenticado
  if (!isset($_SESSION["usuario"])) {
@@ -14,11 +15,8 @@
  // Verificar si el rol del usuario es de administrador (rol 1)
  if ($_SESSION["usuario"]["rol"] == "Admin") {
      // El usuario tiene el rol de administrador, permitir acceso
-     /*
-     echo '<script>
-            alert("¡Acceso permitido!");
-           </script>';
-     */
+     $query = "SELECT * FROM tareas WHERE completado = true"; 
+     $resultado = mysqli_query($conexion, $query);
 } else {
      // El usuario no es administrador, mostrar alerta y redirigirlo a otra página
      echo '<script>
@@ -58,20 +56,31 @@
         </nav>  
       </header> 
       <section id="containerTareas">
-        <form action="../php/CreateTarea.php" method="POST" class="formCrearTareas">
-          <h1>Crear Tareas</h1>
-          <input required type="text" name="NombreDeLaTarea" placeholder="Nombre De La Tarea" />
-          <input required type="text" name="DescripcionTarea" placeholder="Descrive Tu Tarea" />
-          <span>Ponga una fecha de inicio</span>
-          <input required type="date" name="fechaInicial" placeholder="Pon una fecha" />
-          <span>Ponga una fecha de entrega</span>
-          <input required type="date" name="fechaFinal" placeholder="Pon una fecha" />
-          <input required type="number" name="empleado" placeholder="Ingresa el DNI del empleado asignado" />
+      <div class="listTareas">
+          <?php
+            while ($fila = mysqli_fetch_assoc($resultado)) {
+              echo "
+              <div class='cardTareas'>
+              <h1>{$fila['NombreDeLaTarea']}</h1>
+              <span>{$fila['DescripcionTarea']}</span>
+              <p>Fecha De Inicio: {$fila['fechaInicial']}</p>
+              <p>Fecha De Finalizacion: {$fila['fechaFinal']}</p>
+              <p>Responsable: {$fila['empleado']}</p>";
+          
+              if ($_SESSION['usuario']['rol'] == 'Admin') {
+                  // Mostrar botón solo para administradores
+                  echo "<div class='containerBtn'>
+                            <a class='Btn' href='../php/confirmarDelete.php?id={$fila['id']}'>Eliminar Tarea</a>
+                          </div>";
+              } else {
+                  
+              }
+          
+              echo "</div>";
+          }
 
-          <button id="miBoton" class="BtnCrearTareas">
-            Crear Tarea
-          </button>
-        </form>  
+          ?>
+         </div>
       </section>
     </div>   
 

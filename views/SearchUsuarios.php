@@ -1,9 +1,9 @@
 <?php
-session_start();
+session_start(); 
 include "../ConexionDataBase/ConexionDataBase.php";
 
 // Verificar si el usuario está autenticado
-if (!isset($_SESSION["usuario"])) {
+if (!isset($_SESSION["usuario"])) { 
     // El usuario no ha iniciado sesión, redirigirlo al inicio de sesión
     echo '<script>
             alert("El usuario no ha iniciado sesión");
@@ -68,7 +68,8 @@ if (mysqli_num_rows($resultado) === 0) {
             <nav class="navBar">
                 <a href="../views/index.php">Crear Tarea</a> 
                 <a href="../views/TareasList.php">Tareas Lista</a>
-                <a href="../views/RevisarTareas.php">Revisar Tareas</a> 
+                <a href="../views/TareasConcluidas.php">Tareas Concluidas</a>
+                <a href="../views/SearchUsuarios.php">Buscar Usuarios</a> 
                 <a href="../views/Registro/Registro.php">Crear usuario</a> 
             </nav> 
         </header> 
