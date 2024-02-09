@@ -29,7 +29,7 @@
 
 <h3 align="left">Registro</h3>
 <p align="left">
-  Una vista donde el administrador puede crear perfiles para los empleados, y si lo desea, también puede crear otros administradores.
+  Una vista donde el administrador puede crear perfiles para los empleados, y si lo desea, también puede crear otros `administradores`.
 </p>
 
 ![RegistroViewMuni](RegistroViewMuni.png)
@@ -50,10 +50,15 @@
 
 <h3 align="left">Lista De Tareas</h3>
 <p align="left">
-  Una vista donde los empleados pueden visualizar todas las tareas que se les asignaron. Si el administrador accede, se mostrarán todas las tareas creadas.
+  Una vista donde los empleados pueden visualizar todas las tareas que se les asignaron. Si el administrador accede, se mostrarán todas las tareas creadas.(Solo las tareas aun no completadas se mostraran),
 </p>
 
 ![ListaTareasViewMuni](ListaTareasViewMuni.png)
+
+<h3 align="left">Tareas completadas</h3>
+<p align="left">
+  En esta vista se mostraran todas las tareas dads por completadas.
+</p>
 
 <h3 align="left">Buscador De Usuarios</h3>
 <p align="left">
