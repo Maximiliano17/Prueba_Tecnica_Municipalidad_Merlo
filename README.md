@@ -29,7 +29,7 @@
 
 <h3 align="left">Registro</h3>
 <p align="left">
-  Una vista donde el administrador puede crear perfiles para los empleados, y si lo desea, también puede crear otros `administradores`.
+  Una vista donde el administrador puede crear perfiles para los empleados, y si lo desea, también puede crear otros administradores.  
 </p>
 
 ![RegistroViewMuni](RegistroViewMuni.png)
