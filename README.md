@@ -74,4 +74,28 @@ La base de datos tiene las siguientes tablas:
 ### Instrucciones
 
 1. Descarga la base de datos desde [enlace](https://drive.google.com/file/d/15dAdiYLIyVtHFa2oVN3_kdAjaZd_Qqpi/view?usp=sharing).
+ 
+## Docker Instalacion 🐋
 
+Antes de instalar y ejecutar este proyecto, asegúrate de tener instalados los siguientes requisitos:
+
+- Docker: [Instrucciones de instalación de Docker](https://docs.docker.com/get-docker/)
+
+## Cómo Instalar y Ejecutar
+
+Siga estos pasos para instalar y ejecutar el proyecto utilizando Docker:
+
+1. Clona este repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/Maximiliano17/Prueba_Tecnica_Municipalidad_Merlo.git
+
+2. Navega a la carpeta del proyecto
+     ```bash
+   cd Prueba_Tecnica_Municipalidad_Merlo
+3. Construye y levanta los contenedores de Docker utilizando Docker Compose:
+      ```bash
+   docker-compose up -d --build
+4. Accede al juego a través de tu navegador web:
+      ```bash
+   http://localhost/5000
