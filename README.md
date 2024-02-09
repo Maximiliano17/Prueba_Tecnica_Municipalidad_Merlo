@@ -60,6 +60,8 @@
   En esta vista se mostraran todas las tareas dads por completadas.
 </p>
 
+![ListaTareasViewMuni](ListaTareasViewMuni.png)
+
 <h3 align="left">Buscador De Usuarios</h3>
 <p align="left">
   Una vista donde el administrador de la sala puede ver a todos los usuarios que han accedido al sistema, ya sean administradores o empleados, y puede buscarlos por su nombre.
