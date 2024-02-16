@@ -19,7 +19,7 @@
       echo '
        <script>
         alert("¡Registro exitoso!");
-        window.location = "../views/index.php";
+        window.location = "../views/Registro/Invitado.php";
         </script>
        ';
   } else {

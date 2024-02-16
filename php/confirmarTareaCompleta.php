@@ -6,7 +6,7 @@ if (isset($_GET['id'])) {
     echo '
         <script> 
         if (window.confirm("¿Quieres dar esta tarea por concluida? esto sera notificado al jefe de la sala.")) {
-            alert("El usuario aceptó.' . $id_tarea . '");
+            alert("El usuario aceptó.");
             window.location = "../php/CompletarTarea.php?id=' . $id_tarea . '";
         } else {
                 alert("El usuario canceló.");

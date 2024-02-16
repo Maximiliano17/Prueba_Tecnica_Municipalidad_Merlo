@@ -1,3 +1,4 @@
 FROM php:apache
 RUN docker-php-ext-install mysqli
-COPY . /var/www/html
+COPY  /views/registro /var/www/html
+EXPOSE 80
